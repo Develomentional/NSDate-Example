@@ -21,8 +21,6 @@
 		54FEB30215AE5FBB00757491 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54FEB2E015AE5FBB00757491 /* Foundation.framework */; };
 		54FEB30A15AE5FBB00757491 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 54FEB30815AE5FBB00757491 /* InfoPlist.strings */; };
 		54FEB30D15AE5FBB00757491 /* NSDateTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 54FEB30C15AE5FBB00757491 /* NSDateTests.m */; };
-		54FEB31815AE5FD800757491 /* Date_Class.m in Sources */ = {isa = PBXBuildFile; fileRef = 54FEB31715AE5FD800757491 /* Date_Class.m */; };
-		54FEB31915AE5FD800757491 /* Date_Class.m in Sources */ = {isa = PBXBuildFile; fileRef = 54FEB31715AE5FD800757491 /* Date_Class.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,24 +38,22 @@
 		54FEB2DE15AE5FBB00757491 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		54FEB2E015AE5FBB00757491 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		54FEB2E215AE5FBB00757491 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		54FEB2E615AE5FBB00757491 /* NSDate-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NSDate-Info.plist"; sourceTree = "<group>"; };
+		54FEB2E615AE5FBB00757491 /* NSDate-Info.plist */ = {isa = PBXFileReference; path = "NSDate-Info.plist"; sourceTree = "<group>"; };
 		54FEB2E815AE5FBB00757491 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		54FEB2EA15AE5FBB00757491 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		54FEB2EC15AE5FBB00757491 /* NSDate-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDate-Prefix.pch"; sourceTree = "<group>"; };
-		54FEB2ED15AE5FBB00757491 /* DLAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DLAppDelegate.h; sourceTree = "<group>"; };
+		54FEB2EC15AE5FBB00757491 /* NSDate-Prefix.pch */ = {isa = PBXFileReference; path = "NSDate-Prefix.pch"; sourceTree = "<group>"; };
+		54FEB2ED15AE5FBB00757491 /* DLAppDelegate.h */ = {isa = PBXFileReference; path = DLAppDelegate.h; sourceTree = "<group>"; };
 		54FEB2EE15AE5FBB00757491 /* DLAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DLAppDelegate.m; sourceTree = "<group>"; };
 		54FEB2F115AE5FBB00757491 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
 		54FEB2F415AE5FBB00757491 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
-		54FEB2F615AE5FBB00757491 /* DLViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DLViewController.h; sourceTree = "<group>"; };
+		54FEB2F615AE5FBB00757491 /* DLViewController.h */ = {isa = PBXFileReference; path = DLViewController.h; sourceTree = "<group>"; };
 		54FEB2F715AE5FBB00757491 /* DLViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DLViewController.m; sourceTree = "<group>"; };
 		54FEB2FE15AE5FBB00757491 /* NSDateTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NSDateTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		54FEB2FF15AE5FBB00757491 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		54FEB30715AE5FBB00757491 /* NSDateTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NSDateTests-Info.plist"; sourceTree = "<group>"; };
+		54FEB30715AE5FBB00757491 /* NSDateTests-Info.plist */ = {isa = PBXFileReference; path = "NSDateTests-Info.plist"; sourceTree = "<group>"; };
 		54FEB30915AE5FBB00757491 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		54FEB30B15AE5FBB00757491 /* NSDateTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSDateTests.h; sourceTree = "<group>"; };
+		54FEB30B15AE5FBB00757491 /* NSDateTests.h */ = {isa = PBXFileReference; path = NSDateTests.h; sourceTree = "<group>"; };
 		54FEB30C15AE5FBB00757491 /* NSDateTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSDateTests.m; sourceTree = "<group>"; };
-		54FEB31615AE5FD800757491 /* Date_Class.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Date_Class.h; sourceTree = "<group>"; };
-		54FEB31715AE5FD800757491 /* Date_Class.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Date_Class.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,8 +113,6 @@
 		54FEB2E415AE5FBB00757491 /* NSDate */ = {
 			isa = PBXGroup;
 			children = (
-				54FEB31615AE5FD800757491 /* Date_Class.h */,
-				54FEB31715AE5FD800757491 /* Date_Class.m */,
 				54FEB2ED15AE5FBB00757491 /* DLAppDelegate.h */,
 				54FEB2EE15AE5FBB00757491 /* DLAppDelegate.m */,
 				54FEB2F015AE5FBB00757491 /* MainStoryboard_iPhone.storyboard */,
@@ -272,7 +266,6 @@
 				54FEB2EB15AE5FBB00757491 /* main.m in Sources */,
 				54FEB2EF15AE5FBB00757491 /* DLAppDelegate.m in Sources */,
 				54FEB2F815AE5FBB00757491 /* DLViewController.m in Sources */,
-				54FEB31815AE5FD800757491 /* Date_Class.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,7 +274,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				54FEB30D15AE5FBB00757491 /* NSDateTests.m in Sources */,
-				54FEB31915AE5FD800757491 /* Date_Class.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
