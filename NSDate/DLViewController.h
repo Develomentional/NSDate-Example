@@ -9,5 +9,9 @@
 #import <UIKit/UIKit.h>
 
 @interface DLViewController : UIViewController
+@property (weak, nonatomic) IBOutlet UILabel *longStyleDate;
+@property (weak, nonatomic) IBOutlet UILabel *shortStyleDate;
+@property (weak, nonatomic) IBOutlet UILabel *fullStyleDate;
+@property (weak, nonatomic) IBOutlet UILabel *mediumStyleDate;
 
 @end
